@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>FORM ELEMENT</h1>
+        <p>form element represents a document section that contains interactive controls to submit information to a web server.</p>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="abc@gmail.com" placeholder="Type your email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <form>
+            <!--form elements-->
+        </form>
+        <p>Attributes:<br>
+            ACTION:specifies where to send the form data when the form is submitted.
+            <form action="abc.php"></form><br>
+            TARGET:specifies where to display the response after submitting the form 
+            <form target=" "></form><br>
+            NAME:specifies the name of the form
+            <form name="myForm"></form><br>
+            METHOD:specifies the HTTP method to use when sending form data
+            <form method="post"></form><br>
+            AUTOCOMPLETE:specifies whether the form should have autocomplete on or off
+            <form autocomplete="on"></form><br>
+            ENCTYPE:specifies how the form data should be encoded when submitting it to the server
+            <form enctype="multipart/form-data"></form><br>
+            FIELDSET: specifies a group of related form elements
+            LEGEND:specifies a caption for the fieldset element.</p><hr>
+            <form action="abc.php">
+                <fieldset style="border:2px solid black;">
+                    <legend>Personalia:</legend>
+                </fieldset>
+            </form>
+            <p>
+                input element is used to create interactive controls for web-based forms in order to accept data from the user.
+                Input types:<br>
+                text: creates a single-line text input field<br><br>
+                password: creates a password input field<br><br>
+                checkbox: creates a checkbox<br><br>
+                radio: creates a radio button<br><br>
+                submit: creates a submit button<br> <br>
+                reset: creates a reset button<br><br>
+                file: creates a file-select field and a "Browse" button<br><br>
+                hidden: creates a hidden input field<br><br>
+                image: creates an image as the submit button<br><br>
+                button:  creates a clickable button<br><br>
+                Attributes:<br>
+            </p>
+        
+    </body>
+</html>
